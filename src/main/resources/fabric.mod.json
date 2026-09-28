@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "tre-polymer",
+  "version": "${version}",
+  "name": "Team Reborn Energy: Polymer Patch",
+  "description": "Makes Team Reborn Energy safe for vanilla clients on Polymer servers. Reusable by any server-side port of a TR Energy mod.",
+  "authors": ["Craftmore"],
+  "contact": {
+    "sources": "https://github.com/CraftmoreMC/tre-polymer",
+    "issues": "https://github.com/CraftmoreMC/tre-polymer/issues"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "mixins": ["tre-polymer.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.3",
+    "team_reborn_energy": ">=5.0.0",
+    "polymer-core": "*"
+  }
+}
